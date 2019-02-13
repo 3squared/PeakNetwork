@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/3squared/PeakNetwork"
   s.license      = { :type => 'Custom', :file => 'LICENSE.md' }
   s.author       = { "Sam Oakley" => "sam.oakley@3squared.com" }
-  s.platform     = :ios, "10.0"
+  s.platform     = :ios, "11.0"
   s.source       = { :git => "https://github.com/3squared/PeakNetwork.git", :tag => s.version.to_s }
   s.source_files = "PeakNetwork", "PeakNetwork/**/*.{h,m,swift}"
   s.dependency 'PeakOperation'

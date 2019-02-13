@@ -46,6 +46,8 @@
 		CBF2179720CAC63700515DB2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF2179620CAC63700515DB2 /* Logger.swift */; };
 		CBFD4EE71F740C07008CD8AA /* PeakNetwork_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFD4EDD1F740C07008CD8AA /* PeakNetwork_iOS.framework */; };
 		F4136952B70A608A1EC4C881 /* libPods-PeakNetwork-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6DCE3A2926F7FADD67D8B5F /* libPods-PeakNetwork-iOS.a */; };
+		F5048E5C221420B7005E8269 /* RecordingLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5048E5B221420B7005E8269 /* RecordingLogger.swift */; };
+		F5048E6122143C70005E8269 /* RecordingLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5048E6022143C70005E8269 /* RecordingLoggerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +108,8 @@
 		CBFD4EE61F740C07008CD8AA /* PeakNetwork_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeakNetwork_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFD4EED1F740C07008CD8AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6DCE3A2926F7FADD67D8B5F /* libPods-PeakNetwork-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PeakNetwork-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5048E5B221420B7005E8269 /* RecordingLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingLogger.swift; sourceTree = "<group>"; };
+		F5048E6022143C70005E8269 /* RecordingLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingLoggerTests.swift; sourceTree = "<group>"; };
 		F97A8322DDD435542D70EBE4 /* Pods-PeakNetwork-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeakNetwork-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PeakNetwork-iOS/Pods-PeakNetwork-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -172,6 +176,7 @@
 				CBFD4EE01F740C07008CD8AA /* PeakNetwork.h */,
 				CB2380DB1F740D1500F1B001 /* NetworkOperation.swift */,
 				CB2380DE1F740D1500F1B001 /* Operators.swift */,
+				F5048E5B221420B7005E8269 /* RecordingLogger.swift */,
 				188DEAC4220DAF9B0067A6EF /* PeakNetwork+Aliases.swift */,
 			);
 			path = Core;
@@ -214,6 +219,7 @@
 				CB2380F01F740D7600F1B001 /* NetworkTests.swift */,
 				CB2380F31F740D7600F1B001 /* TestEntity.swift */,
 				CB3178721FDAA5AF00B063ED /* test.json */,
+				F5048E6022143C70005E8269 /* RecordingLoggerTests.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -613,6 +619,7 @@
 				CB2380E81F740D1500F1B001 /* Session.swift in Sources */,
 				CB2380EC1F740D1500F1B001 /* Errors.swift in Sources */,
 				CB3AA6CA1FD5A5C9008EFC5C /* HTTPStatusCodes.swift in Sources */,
+				F5048E5C221420B7005E8269 /* RecordingLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,6 +630,7 @@
 				CB2380F81F740D9C00F1B001 /* TestEntity.swift in Sources */,
 				CB2380F71F740D9C00F1B001 /* NetworkTests.swift in Sources */,
 				CB2380F51F740D9C00F1B001 /* CertificatePinningTests.swift in Sources */,
+				F5048E6122143C70005E8269 /* RecordingLoggerTests.swift in Sources */,
 				CB2380F61F740D9C00F1B001 /* ImageControllerTests.swift in Sources */,
 				CB5F252A206BD4A30023FB7F /* MockSessionTests.swift in Sources */,
 			);
